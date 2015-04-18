@@ -1,0 +1,20 @@
+/*
+Theme Name: My First
+Theme URI: http://5mediaphotos.com
+Author: Chuck Obaze
+Author URI: http://5mediaphotos.com
+Description: Chuck's Custom Theme
+Version: 1.0
+*/
+
+ul, ul li{
+	list-style: none;
+}
+
+#nav li{
+	float: left;
+}
+
+body{
+
+}
