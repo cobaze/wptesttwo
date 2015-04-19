@@ -1,129 +1,32 @@
 <?php get_header();?>
-	<!-- main home content -->
-	<div id="main-content" class="container">
 
-		<div class="row">
-			<div class="span12">
-				<div class="hero-unit well">
-			        <h1>Easy WordPress Development</h1>
-			        <p>This template was developed for a tutorial series about WordPress development. You can find the series on <a href="http://www.youtube.com/easydevtuts" target="_blank">YouTube</a></p>
-			        <p><a href="http://www.easydevtuts.com" target="_blank" class="btn btn-inverse btn-large">Learn more »</a></p>
-		      	</div>
-		    </div>
-		</div>
+	<div id="main">
+		<img src="images/slide/slide7.png" alt="slide7"/>
+		<img src="images/slide/slide1.png" alt="slide1"/>
+		<img src="images/slide/slide2.png" alt="slide2"/>
+		<img src="images/slide/slide3.png" alt="slide3"/>
+		<img src="images/slide/slide13.png" alt="slide13"/>
+		<img src="images/slide/slide4.png" alt="slide4"/>
+		<img src="images/slide/slide5.png" alt="slide5"/>
+		<img src="images/slide/slide9.png" alt="slide9"/>
+		<img src="images/slide/slide10.png" alt="slide10"/>
+    </div> <!--end main-->
+    <div id="submain">
+   	  <h1>Welcome to 5 Media Photography</h1>
+   	  <p class="contdtext"><i>~Capturing Moments That Count~</i> has always been my motto since i got into the business of wedding photography. The day you set out to embark on the journey into matrimony marks a new beginning in your lives, and i am committed to making sure that i create dazzling images each step of they way, images which you will hold dear for the rest of your lives. Thank you for visiting my newly redesigned website.<br>I appreciate the time you took out to stop by my corner.<br><br><a href="contact.php">Contact me</a> for a overview of our pricing and packages. It will be an honor to provide you with my photography service.</p>
+ <div id="seperator">
+    	<img src="images/seperator.png" alt="seperator">
+    </div> <!--end seperator-->
+   </div> <!--end submain-->
+   <div id="services">
+     <div id="info1">
+     	<h2>Additional Photography Services</h2>
+     	<p class="addserv">In addition to wedding photography, i offer other photography services including model shoots, portraiture, event photography, maternity shoots, and head-shots. Browse the categories section of my blog for sample of photographs of the other services i offer.</p>
+     </div>
+     <div id="info2">
+     <h2>Videography</h2>
+     	<p class="videography">I shoot videos. Since i can't do both at the same time i am doing photography, i've partnered with very creative cinematographers who can take my stead and record those moments that mean the world to you.<a href="http://5mediaphotos.com/?cat=15" target="_blank"> Click here</a> for more</p>
+     </div>
+   </div> <!--end services-->
 
-		<div class="row">
-			<div class="span4">
-				<ul class="nav nav-pills">
-				  <li class="active"><a href="#tab-one" data-toggle="tab">Tutorials</a></li>
-				  <li ><a href="#tab-two" data-toggle="tab">Blog</a></li>
-				  <li ><a href="#tab-three" data-toggle="tab">Categories</a></li>
-				</ul>
-				<div id="home-tab-container" class="tab-content well">
-				  <div class="tab-pane fade active in" id="tab-one">
-				  	<h3>List of Tutorials</h3>
-				    <ol>
-				    	<li><a href="#">Tutorials Post</a></li>
-				    	<li><a href="#">Tutorials Post</a></li>
-				    	<li><a href="#">Tutorials Post</a></li>
-				    	<li><a href="#">Tutorials Post</a></li>
-				    	<li><a href="#">Tutorials Post</a></li>
-				    </ol>
-				  </div>
-				  <div class="tab-pane fade" id="tab-two">
-				  	<h3>List of Blog Postings</h3>
-				    <ol>
-				    	<li><a href="#">Recent Post</a></li>
-				    	<li><a href="#">Recent Post</a></li>
-				    	<li><a href="#">Recent Post</a></li>
-				    	<li><a href="#">Recent Post</a></li>
-				    	<li><a href="#">Recent Post</a></li>
-				    </ol>
-				  </div>
-				  <div class="tab-pane fade" id="tab-three">
-				  	<h3>List of Categories</h3>
-				    <ol>
-				    	<li><a href="#">Recent Post</a></li>
-				    	<li><a href="#">Recent Post</a></li>
-				    	<li><a href="#">Recent Post</a></li>
-				    	<li><a href="#">Recent Post</a></li>
-				    	<li><a href="#">Recent Post</a></li>
-				    </ol>
-				  </div>
-				</div>
-			</div>
-
-			<div class="span8">
-				<div id="slider" class="carousel slide hidden-phone">
-					<div class="carousel-inner">
-						<div class="item active">
-							<img src="http://placehold.it/800x400&text=easy" alt="#">
-							<div class="carousel-caption  hidden-phone">
-								<h4>First Slide Title</h4>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-							</div>
-						</div>
-						<div class="item">
-							<img src="http://placehold.it/800x400&text=dev" alt="#">
-							<div class="carousel-caption hidden-phone">
-								<h4>Second Slide Title</h4>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-							</div>
-						</div>
-						<div class="item">
-							<img src="http://placehold.it/800x400&text=tuts" alt="#">
-							<div class="carousel-caption hidden-phone">
-								<h4>Third Slide Title</h4>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-							</div>
-						</div>
-					</div>
-					<ol class="carousel-indicators">
-						<li data-target="#slider" data-slide-to="0" class="active"></li>
-						<li data-target="#slider" data-slide-to="1" ></li>
-						<li data-target="#slider" data-slide-to="2" ></li>
-					</ol>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="span12">
-				<ul class="thumbnails">
-					<li class="span4">
-						<div class="thumbnail">
-							<img src="http://placehold.it/300x200">
-							<div class="caption">
-								<h3><a href="#">Post Title</a></h3>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-								<p><a href="#" class="btn btn-mini">read more</a></p>
-							</div>
-						</div>
-					</li>
-					<li class="span4">
-						<div class="thumbnail">
-							<img src="http://placehold.it/300x200">
-								<div class="caption">
-								<h3><a href="#">Post Title</a></h3>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-								<p><a href="#" class="btn btn-mini">read more</a></p>
-							</div>
-						</div>
-					</li>
-					<li class="span4">
-						<div class="thumbnail">
-							<img src="http://placehold.it/300x200">
-							<div class="caption">
-								<h3><a href="#">Post Title</a></h3>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-								<p><a href="#" class="btn btn-mini">read more</a></p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<!-- end of main home content -->
-	<?php get_footer();?>
-
+<?php get_footer();?>

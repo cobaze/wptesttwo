@@ -4,33 +4,21 @@
 	*/
 ?>
 
-<!-- this is where the footer file will begin -->
-		<div id="push"></div>
-	</div>
-	<footer>
-		<div class="container">
-			<div class="row">
+     <div id="footer">
+    	<div id="copyright">
+        	<p>&copy; 5 Media Photography 2013. All Rights Reserved</p>
+        </div>
+    </div> <!--end footer-->
+    </div> <!--end wrapper-->
 
-				<div class="span4">
-					&copy; 2013 <em>nobody</em>
-				</div>
-				<div class="span4">
-					<ul class="nav nav-pills">
-		              <li><a href="#">home</a></li>
-		              <li><a href="#">blog</a></li>
-		              <li><a href="#">contact</a></li>
-		              <li><a href="#">about</a></li>
-		            </ul>
-				</div>
-				<div class="span4">
-					<i class="icon-hand-right icon-white"></i> <em>I guess some social media links could go here.</em> <i class="icon-hand-left icon-white"></i>
-				</div>
-			</div>
-
-		</div>
-
-	</footer>
-
-    <?php wp_footer();?>
-  </body>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="jquery.cycle.all.js"></script>
+<script type="text/javascript">
+$('#main').cycle({
+	fx: 'fade',
+	speed: 'slow',
+	timeout: 4000,
+});
+</script>
+</body>
 </html>
