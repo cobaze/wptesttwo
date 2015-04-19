@@ -32,6 +32,7 @@
 		        	wp_nav_menu( array(
 			        	'menu' 			  ==> 'main-nav',
 			        	'container_class' ==> 'multi_drop_menu',
+			        	'menu_class' 	  ==> '',
 		        	));
 	        	?>
         	<!--<nav class="multi_drop_menu">
